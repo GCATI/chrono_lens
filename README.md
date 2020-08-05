@@ -1,12 +1,3 @@
-# skeletor-public
+# chrono_lens
 
-A template for public repositories. 
-
-## Steps
-
-1. First decide whether the LICENSE should be Open Government Licence (OGL) Version 3 (default) or MIT
-2. Edit the CONTRIBUTING.md file
-3. Review each file before adding to this repository; ensure no usernames, machine names etc are included
-4. Review all comments
-5. Review TODOs
-6. Create a Release
+This is the public repository of our Google Compute Platform (GCP) hosted pipeline that downloads data on a regular schedule, then analyses the data and stores detected feature counts in a database (in this case, BigQuery). Results are then analysed on a slower schedule where missing values are imputed, seasonal adjustment applied and then an underlying trend presented.
